@@ -1,0 +1,38 @@
+/* Define color variables */
+:root {
+    --primary-color: #1E90FF;
+    --secondary-color: #FF6347;
+    --background-color: #F5F5F5;
+    --text-color: #4561e9;
+}
+
+/* Custom CSS for Streamlit */
+.stApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.stButton > button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.stTextInput > div > div > input {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.stFileUploader > div > div > div > button {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
